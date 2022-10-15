@@ -1,0 +1,144 @@
+<html>
+<head>
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+#submit{position : absolute ; 
+right : 90px ;
+bottom : 60px ; }
+h4{font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 400;
+margin-bottom : 0px ;
+margin-top : 30px ; }
+body {
+  margin: 0;
+  padding: 0;
+  background: #dbf2ff50;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 7% auto;
+  width: 500px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 200px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #f39888;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #64a0e6;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #f39888;
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+.right {
+  position: absolute;
+  top: 0 px;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+img{height : 100% ; 
+width : 100% ; 
+object-fit : cover ;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;}
+
+
+
+
+    </style>
+      </head>
+<div id="login-box">
+  <div class="right">
+    <h1 style = "position : absolute ; right : 110px ; ">Sign up</h1>
+    <h4 style = "margin-top : 85px ;">username : </h4>
+    <input type="text" name="username"  />
+    <h4>password : </h4>
+    <input type="password" name="password"/>
+    
+    <input id = "submit" type="submit" name="signup_submit" value="Sign up" />
+  </div>
+  
+  <div class="left">
+    <img src = 'tp2.PNG'/>
+    </div>
+  
+</div>
+</html>
